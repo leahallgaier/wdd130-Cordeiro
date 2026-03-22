@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: 'Lora', serif;
+    background-color: #f9ebf4;
+}
+
+/* HEADER */
+header {
+    background-color: #39943a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo {
+    width: 80px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d673b8;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 40px;
+    background-color: #d673b8;
+    color: white;
+}
+
+/* IMAGES */
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.images img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* SECTION */
+.inspiration {
+    padding: 20px;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    background-color: #5a1643;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
