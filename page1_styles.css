@@ -1,0 +1,113 @@
+/* IMPORT GOOGLE FONTS (must be at the very top) */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap');
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Open Sans', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    color: #03045E; /* Accent 1 */
+    background-color: #E2EAFC; /* Primary */
+}
+
+/* HEADINGS */
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #03045E;
+}
+
+/* NAVIGATION (matches your screenshot exactly) */
+.top-nav {
+    background-color: #ABC4FF; /* Secondary */
+    padding: 18px 0;
+    text-align: center;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+/* NAV LINKS */
+.top-nav a {
+    color: #03045E;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 30px;
+    padding: 10px 18px;
+    border-radius: 8px;
+    transition: all 0.25s ease;
+}
+
+/* HOVER EFFECT */
+.top-nav a:hover {
+    background-color: #9CA7BD; /* Accent 2 */
+    color: white;
+}
+
+/* ACTIVE LINK */
+.top-nav a.active {
+    background-color: #03045E;
+    color: white;
+}
+
+/* CONTENT GRID */
+.content-grid {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 850px) {
+    .content-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* CARD STYLE */
+.card {
+    background-color: white;
+    border: 1px solid #9CA7BD;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* IMAGES */
+.section-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+/* LISTS */
+ul {
+    margin: 15px 0 15px 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #ABC4FF;
+    margin-top: 40px;
+    border-radius: 10px 10px 0 0;
+}
+
+.footer-img {
+    max-width: 150px;
+    margin-top: 15px;
+}

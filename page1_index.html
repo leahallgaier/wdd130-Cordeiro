@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1 - The craftsman of performance tuning</title>
+    <link rel="stylesheet" href="page1_styles.css">
+</head>
+<body>
+
+    <header>
+        <nav class="top-nav">
+            <a href="index.html" class="active">Home</a>
+             <a href="page1_index.html" class="active">Page1</a>
+             <a href="page2.html">Page2</a>
+            <a href="aboutme.html">About Me</a>
+        </nav>
+    </header>
+
+    <main class="content-grid">
+        <section class="card" id="section1">
+            <h2>The Craft of Performance Tuning</h2>
+            <img src="Diagram.png" alt="JMS Processing Diagram" class="section-img">
+            <p>
+                Performance is not just about speed it is about flow, concurrency,
+                and knowing when to wait. Traditional systems process tasks one at a time,
+                but modern systems distribute work using queues and parallel processing.
+            </p>
+        </section>
+
+        <section class="card" id="section2">
+            <h2>The Craftsman Story</h2>
+            <p>
+                In a quiet workshop, a craftsman was given a massive ledger
+                thousands of lines that needed processing. Others approached it
+                sequentially: read, process, write. It worked, but it took hours.
+            </p>
+            <p>
+                The craftsman saw something different. Instead of treating the work
+                as a single task, he turned it into a flowing system:
+            </p>
+            <ul>
+                <li>Messages placed into a queue</li>
+                <li>Multiple workers processing in parallel</li>
+                <li>A collector batching results before writing</li>
+            </ul>
+            <p>
+                What once took hours was completed in minutes. The tools didn’t change
+                the flow did.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+         <img src="Logo1.png" alt="Footer Image" class="footer-img">
+        <p>© 2025 Luis Cordeiro</p>
+    </footer>
+
+</body>
+</html>
