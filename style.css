@@ -214,7 +214,7 @@ footer .social img {
 .homeimage {
     grid-column: 1/2;
     grid-row: 1/3;
-    width: 600px;
+    width: 400px;
     margin: 20px;
 }
 #Just {
