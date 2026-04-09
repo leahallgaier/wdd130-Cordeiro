@@ -22,9 +22,6 @@ nav {
     display: flex;
     justify-content: space-around;
 } 
-nav a {
-    text-align: center;
-}  
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -71,6 +68,7 @@ nav a {
     background-color: #ABC4FF;
     color: #03045E;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #03045E;
