@@ -8,7 +8,10 @@ Accent 2: #9CA7BD (gray)
 */
 
 body {
+    background-color: #E2EAFC;
     font-family: 'Open Sans';
+    margin:0;
+    padding: 0;
 }
 #content {
     max-width: 1600px;
@@ -57,13 +60,6 @@ main section img {
     height: 725px;
     grid-column: 1/11;
     grid-row: 4/9;
-}
-body {
-    background-color: #39943a;
-    font-family: 'Open Sans';
-    font-size: 22px;
-    margin:0;
-    padding: 0;
 }
 header {
     background-color: #ffffff;
