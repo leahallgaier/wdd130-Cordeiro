@@ -72,13 +72,14 @@ header {
 }
 nav a {
     text-align: center;
-    color: #5a1643;
+    background-color: #ABC4FF;
+    color: #03045E;
     text-decoration: none;
     padding: 35px;
 }
 nav a:hover {
-    background-color: #d673b8;
-    color: #39943a;
+    background-color: #03045E;
+    color: #ABC4FF;
 }
 .home-title {
     color: #f9ebf4;
