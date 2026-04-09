@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); 
 
 /*Colors
 Off-white: #f9ebf4
@@ -8,17 +8,14 @@ Green:
 */
 
 body {
-    font-family: 'Lora';
-}
-nav {
-    font-family: 'Lora';
+    font-family: 'Open Sans';
 }
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 nav {
-    font-family: 'Lora';
+    font-family: 'Montserrat';
     display: flex;
     justify-content: space-around;
 } 
@@ -63,7 +60,7 @@ main section img {
 }
 body {
     background-color: #39943a;
-    font-family: 'Lora';
+    font-family: 'Open Sans';
     font-size: 22px;
     margin:0;
     padding: 0;
@@ -85,7 +82,7 @@ nav a:hover {
 }
 .home-title {
     color: #f9ebf4;
-    font-family: 'Lora';
+    font-family: 'Montserrat';
     font-size: 2em;
     margin-top: 10px;
 }
@@ -119,7 +116,7 @@ h4 {
 }
 .msg h2 {
     color: #d673b8;
-    font-family: 'Lora';
+    font-family: 'Montserrat';
     margin: 0;
 }
 .msg p {
@@ -165,7 +162,7 @@ footer .social img {
     padding-top: 10px;
 }
 #font-family {
-    --heading-font: "Lora";
+    --heading-font: "Montserrat";
 }
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
