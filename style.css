@@ -59,7 +59,7 @@ main section img {
     grid-row: 4/9;
 }
 header {
-    background-color: #ffffff;
+    background-color: #ABC4FF;
     display: grid;
     grid-template-columns: 150px auto;
 }
