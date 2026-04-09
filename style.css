@@ -9,13 +9,20 @@ Accent 2: #9CA7BD (gray)
 
 body {
     background-color: #E2EAFC;
-    font-family: 'Open Sans';
     margin:0;
     padding: 0;
 }
 #Guiding, #Understanding {
     font-family: 'Montserrat';
     color: #03045E;
+}
+#Understanding {
+    padding: 35px;
+}
+#homebody, #homebody2 {
+    font-family: 'Open Sans';
+    color: #03045E;
+    padding: 35px;
 }
 #content {
     max-width: 1600px;
