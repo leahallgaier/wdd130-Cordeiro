@@ -140,6 +140,7 @@ h4 {
 footer {
     background-color: #ABC4FF;
     color: #03045E;
+    font-family: 'Open Sans';
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
